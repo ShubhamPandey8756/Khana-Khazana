@@ -1,0 +1,28 @@
+{
+  "name": "khana-khazana",
+  "version": "1.0.0",
+  "description": "food ordering app",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ShubhamPandey8756/Khana-Khazana.gits:.git"
+  },
+  "author": "Shubham Pandey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShubhamPandey8756/Khana-Khazana.gits:/issues"
+  },
+  "homepage": "https://github.com/ShubhamPandey8756/Khana-Khazana.gits:#readme",
+  "dependencies": {
+    "parcel": "^2.11.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
