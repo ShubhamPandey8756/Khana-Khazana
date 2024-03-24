@@ -7,6 +7,7 @@ import { RouterProvider, createBrowserRouter,Outlet } from "react-router-dom"
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Error from "./components/Error";
+import RestaurantMenuPAge from "./components/RestaurantMenuPAge";
 
 
 
@@ -37,6 +38,11 @@ const appRouter=createBrowserRouter([
         path:"/contact",
         element:<Contact/>,
     },
+    {
+        //lets make dynamic route(:resID is the dynamic it change acc to the restaurant`)
+        path:"/restaurants/:resId",
+        element:<RestaurantMenuPAge/>
+    }
     ]
 }
 ]); 
